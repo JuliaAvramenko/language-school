@@ -1,0 +1,11 @@
+.top__title {
+    margin: 0;
+    padding: 0;
+    font-weight: 900;
+    font-size: 120px;
+    line-height: 110px;
+    color: rgb(66 64 63);
+    margin-bottom: 40px;
+    margin-left: 70px;
+    -webkit-text-stroke: 1px wheat;
+}

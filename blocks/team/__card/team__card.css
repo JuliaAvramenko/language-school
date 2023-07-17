@@ -1,0 +1,14 @@
+.team__card {
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+
+    box-shadow: 20px 5px 10px var(--grey-800);
+    background-color: var(--beige-100);
+    width: 600px;
+    padding: 40px;
+    box-sizing: border-box;
+    border: 2px solid var(--grey-400);
+
+
+}

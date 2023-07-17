@@ -1,0 +1,8 @@
+.footer__link-wrapper {
+    display: flex;
+    text-align: center;
+    justify-content: flex-start;
+    align-items: center;
+    column-gap: 10px;
+
+}

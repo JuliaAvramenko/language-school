@@ -1,0 +1,13 @@
+.programs__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /*background-color: rgb(251, 223, 171);*/
+    border-radius: 1%;
+    /*border: 2px solid rgb(248, 215, 159);*/
+    padding: 70px 20px;    
+    background-color: var(--beige-300);
+
+
+}

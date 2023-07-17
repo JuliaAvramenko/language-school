@@ -1,0 +1,27 @@
+{
+    "id": 1,
+    "name": "Маргарита Иванова",
+    "image": "data/avatars/ivanova.jpg",
+    "motto": "I love teaching",
+    "age": "33 года",
+    "education": "",
+    "price": "",
+    "certificates": "",
+    "experience": "",
+    "categories": "",
+    "programs": "",
+    "conditions": "",
+    "video": "",
+    "reviews": [
+        {
+            "id": 1,
+            "review": "",
+            "reviewer": ""
+        },
+        {
+            "id": 2,
+            "review": "",
+            "reviewer": ""
+        }
+    ]
+}

@@ -1,0 +1,11 @@
+.team__buttons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 30px;
+    border: 1px solid grey;
+    padding: 10px;
+    border-radius: 40px;
+    background-color: var(--grey-800);
+    width: 180px;
+}

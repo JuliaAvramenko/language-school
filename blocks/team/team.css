@@ -1,0 +1,9 @@
+.team {
+
+    width: 100%;
+    /*background: linear-gradient(91deg, var(--grey-400) 10%, var(--orange-300) 100%);*/
+    background-color: var(--grey-400);
+
+    padding-top: 70px;
+    padding-bottom: 70px;
+}

@@ -1,0 +1,15 @@
+.surprise__wrapper {
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+    column-gap: 300px;
+
+    width: 1700px;
+    height: 100px;
+
+
+
+
+
+}

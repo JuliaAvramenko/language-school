@@ -1,0 +1,14 @@
+.offers__container {
+    background-color: var(--grey-500);
+    display: flex;
+    width: 1920px;
+    align-items: center;
+    justify-content: center;
+    column-gap: 100px;
+    padding-top: 70px;
+    padding-bottom: 70px;
+    border: 50px solid var(--orange-300);
+    box-sizing: border-box;
+
+
+}

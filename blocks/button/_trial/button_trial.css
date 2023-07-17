@@ -1,0 +1,16 @@
+.button_trial {
+    border-radius: 5px;
+    width: 450px;
+    height: 80px;
+    background-color: var(--grey-400);
+    padding: 10px;
+
+    font-weight: 900;
+    font-size: 35px;
+    box-sizing: border-box;
+    box-shadow: 10px 5px 5px var(--grey-800);
+}
+
+.button_trial:hover {
+    background-color: var(--grey-300);
+}

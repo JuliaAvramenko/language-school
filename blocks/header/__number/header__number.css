@@ -1,0 +1,9 @@
+.header__number {
+    margin: 0;
+    padding: 0;
+    font-weight: 1000;
+    font-size: 60px;
+    color: var(--beige-300);
+    margin-right: 30px;
+    font-family: "Gilroy-Semibold";
+}

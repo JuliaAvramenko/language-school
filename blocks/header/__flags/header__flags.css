@@ -1,0 +1,5 @@
+.header__flags {
+    display: flex;
+
+    column-gap: 30px;
+}

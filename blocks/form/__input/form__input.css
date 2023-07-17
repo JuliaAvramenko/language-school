@@ -1,0 +1,17 @@
+.form__input {
+    margin: 0;
+    padding: 0;
+    padding: 20px 10px;
+    width: 600px;
+    height: 100px;
+    background: var(--beige-200);
+    border-radius: 5px;
+    box-sizing: border-box;
+    border: 1px solid transparent;
+    outline: none;
+
+    font-weight: 400;
+    font-size: 30px;
+    box-shadow: 10px 5px 5px var(--grey-700);
+
+}

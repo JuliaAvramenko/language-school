@@ -1,0 +1,24 @@
+.programs__card {
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+    /*border: 1px solid rgb(249, 231, 199);
+    background-color: rgb(185, 225, 249);*/
+    background-color: var(--beige-100);
+    width: 600px;
+    padding: 40px;
+    box-sizing: border-box;
+    box-shadow: 15px 7px 7px var(--grey-700);
+    border: 1px solid var(--grey-700);
+    position: relative;
+
+}
+
+.programs__card:hover {
+    top: 10px;
+    left: 10px;
+
+    /*-webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);*/
+}

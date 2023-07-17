@@ -1,0 +1,11 @@
+.contact__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #e67300;
+    background-color: #f5671b;
+
+    background-color: var(--orange-500);
+    border-radius: 10px;
+}

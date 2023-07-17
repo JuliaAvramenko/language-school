@@ -1,0 +1,32 @@
+.popup-container {
+    display: flex;
+    width: 1820px;
+    padding: 50px;
+    background-color: wheat;
+
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 400px;
+    bottom: 0;
+    margin: auto;
+    z-index: 10;
+    height: 2000px;
+    overflow-y: scroll;
+
+
+}
+
+.popup-container::-webkit-scrollbar {
+    width: 15px;
+}
+
+.popup-container::-webkit-scrollbar-track {
+    -webkit-box-shadow: 5px 5px 5px -5px rgba(34, 60, 80, 0.2) inset;
+    background-color: #f9f9fd;
+}
+
+.popup-container::-webkit-scrollbar-thumb {
+    background-color: rgb(200, 135, 78);
+
+}

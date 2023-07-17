@@ -1,0 +1,9 @@
+.offers__title {
+    margin: 0;
+    padding: 0;
+    font-weight: 900;
+    font-size: 60px;
+    line-height: 50px;
+    color: var(--black);
+    text-align: center;
+}

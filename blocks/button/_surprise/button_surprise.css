@@ -1,0 +1,20 @@
+.button_surprise {
+    border-radius: 5px;
+    width: 320px;
+    height: 85px;
+    background-color: var(--grey-400);
+    padding: 10px;
+    font-weight: 300;
+    font-size: 30px;
+    color: white;
+    box-sizing: border-box;
+    box-shadow: 10px 5px 5px var(--grey-800);
+}
+
+.button_surprise:hover {
+
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+    background-color: var(--orange-300);
+}

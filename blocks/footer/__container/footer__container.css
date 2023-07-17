@@ -1,0 +1,12 @@
+.footer__container {
+    width: 1920px;
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+
+    margin-right: auto;
+
+    margin-bottom: 30px;
+
+
+}

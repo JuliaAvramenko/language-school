@@ -1,0 +1,9 @@
+.popup-container__review-card {
+    border: 5px solid rgb(166, 54, 14);
+    box-shadow: 10px 5px 5px rgb(166, 54, 14);
+
+    border-radius: 10px;
+    padding: 15px;
+
+
+}

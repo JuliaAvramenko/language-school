@@ -1,0 +1,7 @@
+.offers__title-wrapper {
+    width: 600px;
+    height: 100px;
+    background: linear-gradient(50deg, var(--orange-300) 70%, var(--grey-300) 50%);
+    box-shadow: 50px 50px var(--beige-200);
+
+}
