@@ -1,0 +1,36 @@
+.popup-container {
+    width: 1660px;
+    height: 900px;
+    display: flex;
+
+    padding: 50px;
+
+    background-color: var(--beige-100);
+
+
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0px;
+    bottom: 0;
+    margin: auto;
+    z-index: 10;
+
+    overflow-y: scroll;
+
+
+}
+
+.popup-container::-webkit-scrollbar {
+    width: 15px;
+}
+
+.popup-container::-webkit-scrollbar-track {
+    -webkit-box-shadow: 5px 5px 5px -5px rgba(34, 60, 80, 0.2) inset;
+    background-color: var(--beige-100);
+}
+
+.popup-container::-webkit-scrollbar-thumb {
+    background-color: var(--font-dark);
+
+}

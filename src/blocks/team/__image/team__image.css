@@ -1,0 +1,7 @@
+.team__image {
+    width: 520px;
+    height: 500px;
+    object-fit: contain;
+
+    margin-bottom: 30px;
+}

@@ -1,0 +1,7 @@
+
+const TeacherProfile = (function () {
+
+    return {
+
+    }
+})

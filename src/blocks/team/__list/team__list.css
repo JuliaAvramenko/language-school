@@ -1,0 +1,12 @@
+.team__list {
+    margin-bottom: 30px;
+    width: 1860px;
+
+
+    padding-left: 30px;
+    padding-right: 30px;
+
+    padding-bottom: 10px;
+
+    overflow: hidden;
+}

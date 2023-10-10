@@ -1,8 +1,0 @@
-.club__text-wrapper {
-    width: 700px;
-    height: 400px;
-    background-color: var(--orange-300);
-    display: flex;
-    flex-direction: column;
-    row-gap: 50px;
-}

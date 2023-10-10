@@ -1,0 +1,9 @@
+.club__image {
+
+    width: 700px;
+    height: 500px;
+
+    box-shadow: 10px 5px 5px var(--grey-700);
+    border-radius: 20px;
+
+}

@@ -1,0 +1,8 @@
+.grammar__span {
+    font-family: "Merriweather", sans-serif;
+    color: var(--beige-200);
+
+    font-size: 80px;
+    text-decoration: underline;
+    -webkit-text-stroke: 1px var(--beige-200);
+}

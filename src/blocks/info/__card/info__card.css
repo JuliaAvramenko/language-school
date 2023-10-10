@@ -1,0 +1,14 @@
+.info__card {
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+    border-radius: 20px;
+    padding: 40px;
+    box-sizing: border-box;
+    width: 620px;
+
+    box-shadow: 15px 7px 7px var(--grey-700);
+    background-color: var(--grey-200);
+
+}

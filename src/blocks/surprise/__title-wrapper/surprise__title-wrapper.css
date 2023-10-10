@@ -1,0 +1,12 @@
+.surprise__title-wrapper {
+    width: 1000px;
+    height: 130px;
+    margin-bottom: 30px;
+
+    background-color: var(--grey-400);
+    border-radius: 20px;
+    border: 2px solid var(--grey-500);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

@@ -1,0 +1,10 @@
+.top {
+    font-family: "Merriweather", sans-serif;
+    width: 100%;
+    background-color: var(--grey-700);
+    padding-bottom: 100px;
+    display: flex;
+    justify-content: center;
+    padding-top: 70px;
+    padding-bottom: 120px;
+}

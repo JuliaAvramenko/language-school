@@ -1,0 +1,8 @@
+.grammar__title-wrapper {
+    display: flex;
+    width: 1500px;
+    height: 150px;
+    background-color: var(--grey-300);
+    margin-bottom: 100px;
+    border: 50px solid var(--beige-100)
+}

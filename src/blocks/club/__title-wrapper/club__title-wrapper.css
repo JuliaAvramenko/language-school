@@ -1,0 +1,10 @@
+.club__title-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 1500px;
+    height: 150px;
+    background-color: var(--orange-500);
+    margin-bottom: 50px;
+}

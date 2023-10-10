@@ -1,0 +1,8 @@
+.club__span {
+    font-family: "Merriweather", sans-serif;
+    color: var(--font-dark);
+
+    font-size: 80px;
+    text-decoration: underline;
+    -webkit-text-stroke: 1px var(--font-dark);
+}

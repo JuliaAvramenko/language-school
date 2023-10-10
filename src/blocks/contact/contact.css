@@ -1,0 +1,10 @@
+.contact {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 100%;
+    background-color: var(--orange-500);
+    padding-top: 70px;
+    padding-bottom: 70px;
+}

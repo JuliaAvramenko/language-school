@@ -1,0 +1,9 @@
+.grammar__title {
+    margin: 0;
+    padding: 0;
+    font-weight: 700;
+    font-size: 60px;
+
+    text-align: center;
+    color: var(--font-dark);
+}

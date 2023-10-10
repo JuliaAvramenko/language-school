@@ -1,0 +1,565 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Document</title>
+
+</head>
+
+<body class="container">
+    <header class="header">
+        <div class="header__container">
+            <div class="header__wrapper">
+                <img src="<%=require('./images/logo.jpeg')%>" alt="" class="logo">
+                <div class="header__flags">
+                    <img src="<%=require('./images/flag_GB.jpg')%>" alt="" class="header__flag">
+                    <img src="<%=require('./images/Flag_of_Spain.svg.png')%>" alt="" class="header__flag">
+                    <img src="<%=require('./images/china.jpeg')%>" alt="" class="header__flag">
+                    <img src="<%=require('./images/Germany.png')%>" alt="" class="header__flag">
+                </div>
+                <div class="header__contact">
+                    <img src="<%=require('./images/phone.png')%>" alt="" class="header__phone">
+                    <p class="header__number">+7 918 873 83 33</p>
+                    <button class="button button_header">Связаться с нами</button>
+                </div>
+            </div>
+            <nav class="header__menu">
+                <ul class="header__menu-list">
+                    <li class="header__menu-item"> <a href="#info" class="header__link">Почему мы</a></li>
+                    <li class="header__menu-item"> <a href="#programs" class="header__link">Наши программы</a></li>
+                    <li class="header__menu-item"> <a href="#teachers" class="header__link">Наши преподаватели</a></li>
+                    <li class="header__menu-item"> <a href="#footer" class="header__link">Наши контакты</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div class="pages">
+
+        <section class="top" id="top">
+            <div class="top__container">
+                <img src="<%=require('./images/main.jpg')%>" alt="" class="top__image">
+                <div class="top__wrapper">
+                    <h1 class="top__title">Language</h1>
+                    <h1 class="top__title top__title_margin-small">Teachers</h1>
+                    <h1 class="top__title top__title_margin-big">Community</h1>
+                    <p class="top__text"> </p>
+                </div>
+
+            </div>
+
+        </section>
+        <section class="slider">
+            <div class="slider__container">
+                <h2 class="slider__slogan">Поможем вам освоить иностранный язык со вкусом, минуя суету и рутину, в
+                    компании преподавателей и наставников нашего сообщества</h2>
+                <div class="slider__cards">
+                    <article class="slider__card">
+                        <img src="<%=require('./images/letter r.jpeg')%>" alt="" class="slider__image">
+                        <h3 class="slider__title">Кто мы такие</h3>
+                        <p class="slider__text">Наше сообщество- это группа преподавателей, объединенных своим
+                            энтузиазмом
+                            и любовью к иностранным языком. Мы постоянно развиваемся и растем профессионально. Мы ваши
+                            наставники и друзья и мы здесь, чтобы передать наш опыт и знания вам.</p>
+                        <button class="button button_slider-down">
+                            <img src="<%=require('./images/down.png')%>" alt="arrow" class="slider__icon">
+                        </button>
+                    </article>
+                    <article class="slider__card slider__card_color">
+                        <img src="<%=require('./images/A.png')%>" alt="" class="slider__image">
+                        <h3 class="slider__title">Кто наша аудитория</h3>
+                        <p class="slider__text">У нас учатся дети (от 5,5 лет), младшие школьники, подростки, студенты
+                            ВУЗов, взрослые. Отдельные программы разработаны по работе со специалистами различных
+                            профессий, которым нужно работать на международной арене с иностранными клиентами.</p>
+                        <button class="button button_slider-up">
+                            <img src="<%=require('./images/up.png')%>" alt="arrow" class="slider__icon">
+                        </button>
+                    </article>
+                </div>
+
+            </div>
+        </section>
+
+
+        <section class="info" id="info">
+            <div class="info__container">
+                <h2 class="info__slogan">Поможем вам освоить иностранный язык со вкусом, минуя суету и рутину, в
+                    компании преподавателей и наставников нашего сообщества</h2>
+                <div class="info__cards">
+                    <article class="info__card">
+                        <img src="<%=require('./images/letter r.jpeg')%>" alt="" class="info__image">
+                        <h3 class="info__title">Кто мы такие</h3>
+                        <p class="info__text">Наше сообщество- это группа преподавателей, объединенных своим энтузиазмом
+                            и любовью к иностранным языком. Мы постоянно развиваемся и растем профессионально. Мы ваши
+                            наставники и друзья и мы здесь, чтобы передать наш опыт и знания вам.</p>
+                    </article>
+                    <article class="info__card">
+                        <img src="<%=require('./images/A.png')%>" alt="" class="info__image">
+                        <h3 class="info__title">Кто наша аудитория</h3>
+                        <p class="info__text">У нас учатся дети (от 5,5 лет), младшие школьники, подростки, студенты
+                            ВУЗов, взрослые. Отдельные программы разработаны по работе со специалистами различных
+                            профессий, которым нужно работать на международной арене с иностранными клиентами.</p>
+                    </article>
+                    <article class="info__card">
+                        <img src="<%=require('./images/letter r.jpeg')%>" alt="" class="info__image">
+                        <h3 class="info__title">Наши направления</h3>
+                        <p class="info__text">Мы с удовольствием работаем со всеми, кому интересно изучение иностранного
+                            языка. Подготовка к экзамену, прохождению собеседования, изучение языка для переезда или
+                            путешествий, помощь в выполнении домашних заданий – мы поможем справиться с любой задачей.
+                        </p>
+                    </article>
+                    <article class="info__card">
+                        <img src="<%=require('./images/letter m.jpeg')%>" alt="" class="info__image">
+                        <h3 class="info__title">Какие материалы мы используем</h3>
+                        <p class="info__text">Мы используем Кэмбриджские, Лонгмановские, Оксфордские, Макмиллановские
+                            современные учебники, различные платформы, статьи, видео-ресурсы, специальные наработки,
+                            адаптированные под разные возрастные категории и потребности ученика.</p>
+                    </article>
+                    <article class="info__card">
+                        <img src="<%=require('./images/letter u.jpeg')%>" alt="" class="info__image">
+                        <h3 class="info__title">В чем наша уникальность</h3>
+                        <p class="info__text">Мы находим подход к каждому, даже самому требовательному слушателю и
+                            делаем уроки не только интересными, но и продуктивными, а приятным бонусом станет 2
+                            бесплатных занятия в разговорном клубе и один урок в форме grammar boost для лучшего
+                            восприятия грамматики.</p>
+                    </article>
+                    <article class="info__card">
+                        <img src="<%=require('./images/letter r.jpeg')%>" alt="" class="info__image">
+                        <h3 class="info__title">Что вы в итоге получите</h3>
+                        <p class="info__text">Вы получите уроки в позитивной дружеской атмосфере, поймете, что онлайн
+                            уроки – это эффективно и не страшно, получите возможность посещать разговорный клуб и уроки
+                            по grammar boost по приемлемой цене, индивидуальный подход и программы.</p>
+                    </article>
+
+
+
+                </div>
+            </div>
+        </section>
+
+
+
+
+
+
+        <section class="programs programs_bottom" id="programs">
+            <div class="programs__container">
+                <h2 class="programs__title">Программы для детей и подростков</h2>
+                <div class="programs__cards">
+                    <article class="programs__card">
+                        <h2 class="programs__card-title">Курс для самых юных слушателей индивидуально (5,5-7,5 лет)
+                        </h2>
+                        <p class="programs__card-text">Уроки по кэмбриджским учебникам и наработкам по коммуникативной
+                            методике, включая фонетический
+                            увлекательный курс.
+                        </p>
+                    </article>
+                    <article class="programs__card">
+                        <h2 class="programs__card-title">Курс для младших школьников в индивидуально (8-10 лет)
+                        </h2>
+                        <p class="programs__card-text">Уроки по кэмбриджским и другим учебникам и наработкам,
+                            внеклассное чтение и многое другое, подготовка к обсуждению и устному/письменному анализу
+                            разговорных тем.
+                        </p>
+                    </article>
+                    <article class="programs__card">
+                        <h2 class="programs__card-title">Курс для школьников (8-16 лет)
+                        </h2>
+                        <p class="programs__card-text">.Помощь по школьной программе (работа по школьным учебникам,
+                            помощь в подготовке к контрольным, переводным
+                            Экзаменам, ВПР, дополнительная практика)
+                        </p>
+                    </article>
+                    <article class="programs__card">
+                        <h2 class="programs__card-title">Курс для школьников (средняя школа) в индивидуально (11-14 лет)
+                        </h2>
+                        <p class="programs__card-text">Уроки по кэмбриджским и другим учебникам и наработкам,
+                            внеклассное чтение, подготовка к обсуждению и устному/
+                            письменному анализу разговорных тем, просмотр и обсуждение статей и видео ресурсов.
+                        </p>
+                    </article>
+                    <article class="programs__card">
+                        <h2 class="programs__card-title">Курс для школьников (старшая школа) индивидуально (15-17 лет)
+                        </h2>
+                        <p class="programs__card-text">Уроки по кэмбриджским и другим учебникам и наработкам,
+                            внеклассное чтение, подготовка к обсуждению и устному/
+                            письменному анализу разговорных тем, просмотр и обсуждение статей и видео ресурсов.
+                        </p>
+                    </article>
+                    <article class="programs__card">
+                        <h2 class="programs__card-title">Подготовка к государственным экзаменам ОГЭ/ЕГЭ
+                        </h2>
+                        <p class="programs__card-text">Уроки по Макмиллану и школьным утвержденным учебникам</p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section class="programs" id="adults">
+            <div class="programs__container programs__container_color">
+                <h2 class="programs__title">Программы для взрослых</h2>
+                <div class="programs__cards">
+                    <article class="programs__card">
+                        <h2 class="programs__card-title">Курс общего английского от уровня Beginner до Advanced
+                        </h2>
+                        <p class="programs__card-text">Уроки по кэмбриджским и другим учебникам и наработкам, включая
+                            грамматический курс.
+                        </p>
+                    </article>
+                    <article class="programs__card">
+                        <h2 class="programs__card-title">Курс делового английского от уровня Beginner до Advanced
+                        </h2>
+                        <p class="programs__card-text">Уроки по кэмбриджским и другим учебникам делового английского и
+                            наработкам, включая грамматический курс.
+                        </p>
+                    </article>
+                    <article class="programs__card">
+                        <h2 class="programs__card-title">Курс специализированного делового английского
+                        </h2>
+                        <p class="programs__card-text">Специальности: юриспруденция, финансы и бухучет, реклама и
+                            маркетинг, английский в
+                            строительстве, IT и программирование, технический английский и другие.
+                        </p>
+                    </article>
+                    <article class="programs__card">
+                        <h2 class="programs__card-title">Курс английского для путешествий, знакомств и переезда в другие
+                            страны
+                        </h2>
+                        <p class="programs__card-text">Английский для туризма, переезда в другие страны
+                            (специализированная авторская методика),
+                        </p>
+                    </article>
+
+                </div>
+            </div>
+        </section>
+
+        <section class="team" id="teachers">
+            <div class="team__container">
+                <h2 class="team__title">Наши преподаватели</h2>
+                <div class="team__wrapper">
+                    <div class="team__list">
+                        <div class="team__cards">
+                            <template class="team-template">
+                                <article class="team__card">
+                                    <img src="<%=require('./images/teacher.jpg')%>" alt="" class="team__image">
+                                    <h2 class="team__name">Маргарита Иванова</h2>
+
+                                    <p class="team__about">Учитель английского и немецкого языков</p>
+                                    <button class="button button_popup">Подробнее →</button>
+
+
+                                </article>
+                            </template>
+
+                        </div>
+                    </div>
+                    <div class="team__buttons">
+                        <button class="button button_team" id="left-teachers-button">
+                            <img src="<%=require('./images/left.png')%>" alt="" class="team__button-image">
+                        </button>
+                        <button class="button button_team" id="right-teachers-button">
+                            <img src="<%=require('./images/right.png')%>" alt="" class="team__button-image">
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <section class="trial">
+            <div class="trial__container">
+                <img src="<%=require('./images/in-doubt.jpg')%>" alt="" class="trial__image">
+                <div class="trial__wrapper">
+                    <p class="trial__text">Задумался? Приходи и попробуй!</p>
+                    <h2 class="trial__title">Первый урок - бесплатно!</h2>
+                </div>
+                <button class="button button_trial">Записаться</button>
+            </div>
+        </section>
+
+        <section class="club" id="speaking-club">
+            <div class="club__container">
+                <div class="club__title-wrapper">
+                    <h2 class="club__title">Не хотите постоянных занятий, но хотите поддерживать уровень языка?</h2>
+                </div>
+                <div class="club__wrapper">
+                    <img src="<%=require('./images/speaking-club.jpg')%>" alt="" class="club__image">
+                    <div class="club__text-wrapper">
+                        <p class="club__text">Мы найдем решение!</p>
+                        <p class="club__text">Присоединяйтесь к нашему <span class="club__span">РАЗГОВОРНОМУ
+                                КЛУБУ</span></p>
+                    </div>
+                </div>
+                <div class="club__title-wrapper">
+                    <h2 class="club__title">Группы для всех возрастов!</h2>
+                </div>
+            </div>
+        </section>
+
+        <section class="grammar" id="grammar-club">
+            <div class="grammar__container">
+                <div class="grammar__title-wrapper">
+                    <h2 class="grammar__title">Нет проблем с разговорным английским, но хотите говорить более
+                        разнообразно
+                        и правильно?</h2>
+                </div>
+                <div class="grammar__wrapper">
+                    <div class="grammar__text-wrapper">
+                        <p class="grammar__text">Тогда наш групповой курс <span class="grammar__span">"GRAMMAR
+                                BOOST"</span> для
+                            ВАС!</p>
+                    </div>
+                    <img src="<%=require('./images/tenses.jpg')%>" alt="" class="grammar__image">
+                </div>
+
+            </div>
+        </section>
+
+        <section class="surprise">
+            <div class="surprise__container">
+                <div class="surprise__title-wrapper">
+                    <h2 class="surprise__title">Лучший подарок- это знания!</h2>
+                </div>
+                <img src="<%=require('./images/surprise3.png')%>" alt="" class="surprise__image">
+
+                <div class="surprise__wrapper">
+                    <button class="button button_surprise">Для младших школьников</button>
+                    <button class="button button_surprise">Для подростков</button>
+                    <button class="button button_surprise">Для взрослых</button>
+
+                </div>
+
+            </div>
+        </section>
+
+        <section class="offers">
+            <div class="offers__container">
+                <div class="offers__wrapper">
+                    <div class="offers__title-wrapper">
+                        <h2 class="offers__title">Крутая бонусная программа</h2>
+                        <a class="pk-pay-link" href="#">Оплата</a>
+                    </div>
+                    <div class="offers__text-wrapper">
+                        <p class="offers__text">Приведи друга и получи 1 урок бесплатно и скидку на следующий курс до 7%
+                        </p>
+                    </div>
+                </div>
+                <img src="<%=require('./images/friends.jpg')%>" alt="" class="offers__image">
+
+            </div>
+        </section>
+
+
+
+        <section class="contact" id="contact">
+            <div class="contact__container">
+                <h2 class="contact__title">Оставьте нам Ваш телефон, и мы <span class="contact__span">САМИ</span> Вам
+                    перезвоним</h2>
+                <form id="form-clients-data" action="" class="form">
+                    <div class="form__wrapper">
+                        <input required autocomplete="off" placeholder="Имя*" type="text" class="form__input" id="name"
+                            focus>
+                    </div>
+                    <div class="form__wrapper">
+                        <input required autocomplete="off" placeholder="+7(918)921-66-66*" type="number"
+                            class="form__input" id="phone" focus>
+                    </div>
+                    <button type="submit" class="button button_contact" disabled>Отправить</button>
+                </form>
+                <div class="contact__success">
+                    <img src="<%=require('./images/tick.png')%>" alt="" class="contact__image">
+                </div>
+                <h2 class="contact__title">Также можете связаться с нами по телефону <span class="contact__span">+7
+                        (917) 873 28 34</span>.</h2>
+            </div>
+
+        </section>
+
+        <section class="icons">
+            <div class="icons__wrapper">
+                <img src="<%=require('./images/whatsapp.png')%>" alt="whatsapp" class="icons__icon">
+                <img src="<%=require('./images/telegram.png')%>" alt="telegram" class="icons__icon">
+            </div>
+            <button class="button button_icons" title="Напишите нам">
+                <img src="<%=require('./images/write.png')%>" alt="" class="icons__pic">
+            </button>
+        </section>
+
+
+
+    </div>
+    <footer id="footer" class="footer">
+        <div class="footer__container">
+
+
+            <div class="footer__links">
+                <div class="footer__link">
+                    <h3 class="footer__link-header">Контактная информация</h3>
+                    <div class="footer__link-wrapper">
+                        <img src="<%=require('./images/envelope.png')%>" alt="" class="footer__link-image">
+                        <p class="footer__link-text">test@test.ru</p>
+                    </div>
+                    <div class="footer__link-wrapper">
+                        <img src="<%=require('./images/Group_footer.png')%>" alt="" class="footer__link-image">
+                        <p class="footer__link-text">+7 777 555 66 99</p>
+                    </div>
+                    <div class="footer__link-wrapper">
+                        <img src="<%=require('./images/placeholder.png')%>" alt="" class="footer__link-image">
+                        <p class="footer__link-text">Москва, Бульвар Ленина 33</p>
+                    </div>
+                    <div class="footer__link-wrapper">
+                        <div src="" alt="" class="footer__link-image"></div>
+                        <p class="footer__link-text"></p>
+                    </div>
+                </div>
+
+                <div class="footer__link">
+                    <h3 class="footer__link-header">Основные ссылки </h3>
+                    <div class="footer__link-wrapper">
+
+                        <img src="<%=require('./images/arrow.png')%>" alt="" class="footer__link-arrow">
+                        <a href="#top" class="footer__link-text">Главная</a>
+
+                    </div>
+                    <div class="footer__link-wrapper">
+                        <img src="<%=require('./images/arrow.png')%>" alt="" class="footer__link-arrow">
+                        <a href="#info" class="footer__link-text">Почему мы</a>
+                    </div>
+
+                    <div class="footer__link-wrapper">
+                        <img src="<%=require('./images/arrow.png')%>" alt="" class="footer__link-arrow">
+                        <a href="#teachers" class="footer__link-text">Наши преподаватели</a>
+                    </div>
+                    <div class="footer__link-wrapper">
+                        <img src="<%=require('./images/arrow.png')%>" alt="" class="footer__link-arrow">
+                        <a href="#contact" class="footer__link-text">Контакты</a>
+                    </div>
+                </div>
+                <div class="footer__link">
+                    <h3 class="footer__link-header">Наши программы</h3>
+                    <div class="footer__link-wrapper">
+
+                        <img src="<%=require('./images/arrow.png')%>" alt="" class="footer__link-arrow">
+                        <a href="#programs" class="footer__link-text">Для детей и подростков</a>
+
+                    </div>
+                    <div class="footer__link-wrapper">
+                        <img src="<%=require('./images/arrow.png')%>" alt="" class="footer__link-arrow">
+                        <a href="#adults" class="footer__link-text">Для взрослых</a>
+                    </div>
+                    <div class="footer__link-wrapper">
+                        <img src="<%=require('./images/arrow.png')%>" alt="" class="footer__link-arrow">
+                        <a href="#speaking-club" class="footer__link-text">Разговорный клуб</a>
+                    </div>
+                    <div class="footer__link-wrapper">
+                        <img src="<%=require('./images/arrow.png')%>" alt="" class="footer__link-arrow">
+                        <a href="#grammar-club" class="footer__link-text">Грамматический клуб</a>
+                    </div>
+                </div>
+                <div class="footer__link">
+                    <h3 class="footer__link-header">Социальные сети</h3>
+                    <div class="footer__link-wrapper">
+
+                        <img src="<%=require('./images/arrow.png')%>" alt="" class="footer__link-arrow">
+                        <a href="#" class="footer__link-text">Telegram</a>
+
+                    </div>
+                    <div class="footer__link-wrapper">
+                        <img src="<%=require('./images/arrow.png')%>" alt="" class="footer__link-arrow">
+                        <a href="#" class="footer__link-text">WhatsApp</a>
+                    </div>
+                    <div class="footer__link-wrapper">
+                        <img src="<%=require('./images/arrow.png')%>" alt="" class="footer__link-arrow">
+                        <a href="#" class="footer__link-text">YouTube</a>
+                    </div>
+                    <div class="footer__link-wrapper">
+                        <div src="" alt="" class="footer__link-image"></div>
+                        <p class="footer__link-text"></p>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="footer__line"></div>
+
+
+        </div>
+        <div class="footer__wrapper">
+            <p class="footer__paragraph">(с) 2019. Все права защищены.</p>
+        </div>
+
+
+
+
+
+
+    </footer>
+
+    <div class="popup popup_opened1" id="popup-teachers-data">
+        <div class="popup-container popup-container_picture">
+            <button class="popup-container__close-button"></button>
+            <div class="popup-payload"></div>
+            <!-- INSERT HTML HERE from JS -->
+
+        </div>
+    </div>
+
+    <template class="popup-container-template">
+        <article class="popup-container__wrapper">
+
+            <h2 class="popup-container__name">Марианна Иванова</h2>
+            <div class="popup-container__image-wrapper">
+                <img src="<%=require('./images/teacher.jpg')%>" alt="учитель" class="popup-container__image">
+                <div class="popup-container__info-wrapper">
+                    <h3 class="popup-container__title">Возраст</h3>
+                    <p class="popup-container__text" id="age">33 года</p>
+                    <h3 class="popup-container__title">Образование</h3>
+                    <p class="popup-container__text" id="education">НИУ БелГУ</p>
+                    <h3 class="popup-container__title">Сертификаты</h3>
+                    <p class="popup-container__text" id="certificates">IELTS, TOFEL, CAE</p>
+                    <h3 class="popup-container__title">Цена</h3>
+                    <p class="popup-container__text" id="price">900 руб за 60 мин</p>
+                </div>
+            </div>
+            <h3 class="popup-container__title">Девиз</h3>
+            <p class="popup-container__text" id="motto">Не хотите постоянных занятий, но хотите поддерживать
+                уровень
+                языка?</p>
+
+            <h3 class="popup-container__title">Опыт работы</h3>
+            <p class="popup-container__text" id="work-experience">"АЛИБРА СКУЛ", Skyeng, INGLEX</p>
+            <h3 class="popup-container__title">Категории учеников, с которыми работает</h3>
+            <p class="popup-container__text" id="students-categories">Младшие школьники, подростки, взрослые
+            </p>
+            <h3 class="popup-container__title">Программы, по которым работает</h3>
+            <p class="popup-container__text" id="programs">Английский язык, туризм, бизнес</p>
+            <h3 class="popup-container__title">Индивидуальные условия</h3>
+            <p class="popup-container__text" id="special-conditions">Отмена урока за 24 часа</p>
+            <h3 class="popup-container__title">Видеопрезентация</h3>
+            <p class="popup-container__text" id="video"></p>
+            <h3 class="popup-container__title">Отзывы о преподавателе</h3>
+            <div class="popup-container__reviews">
+                <template class="review-template">
+                    <article class="popup-container__review-card">
+                        <p class="popup-container__text-review">Мне очень понравилось заниматься с Марианной.
+                            Она классная! Уроки были насыщенными, интересными, много интерактивного материала и
+                            игр </p>
+                        <p class="popup-container__reviewer">Миша Антонов</p>
+                    </article>
+                </template>
+
+            </div>
+
+        </article>
+    </template>
+    <script type="text/javascript"
+        src="https://widgets.paykeeper.ru/paywidget/js/f3450a8e004b436fe789fc57f412283f669f7085177f0a7171d5bb8ddb654f6e"
+        class="widjet"></script>
+</body>
+
+
+</html>
